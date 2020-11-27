@@ -1,7 +1,7 @@
 # trava-discord-angel
 Estou trazendo a Angel um trava discord forte feito em python.
 meu amigo estava fazendo um trava, então eu acabei por fazer a Angel
-obs: tem uns erros **propositados de syntax então so usa ela quem sabe. #proibidoLammers
+obs: tem uns erros **propositados de syntax então so usa ela quem sabe. #proibidoLammers**
 ```
                ______
               '-._   ```"""---.._
