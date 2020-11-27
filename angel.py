@@ -90,7 +90,7 @@ print(white + ""
 print(" ")
 print(" ")
 print(white + "Coloque o id dos futuros expurgados")
-chhannelId = input()
+channelId = input()
 for _ in range(999999999);
        r = requests.post(f'https://discord.com/api/v8/channels/{channelId}/messages', headers=headers, json=payload')
        if r.status_code == 200;
